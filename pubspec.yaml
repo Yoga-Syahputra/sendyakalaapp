@@ -1,0 +1,52 @@
+name: sendyakala
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  firebase_auth: ^5.1.0
+  provider: ^6.0.2
+  google_fonts: ^6.2.1
+  percent_indicator: ^4.0.0
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1  # Update to the latest version
+  shared_preferences: ^2.0.13
+  intl: ^0.19.0
+  flutter_local_notifications: ^17.1.2
+  encrypt: ^5.0.1
+  pointycastle: ^3.4.0
+  url_launcher: ^6.0.20
+  flutter_launcher_icons: ^0.13.1
+
+  # Add firebase_core dependency
+  firebase_core: ^3.1.0  # Replace with the latest version
+  
+  # Add firebase_database dependency
+  firebase_database: ^11.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash_logo.png
+    - assets/sendyakala.png
+
+flutter_launcher_icons:
+  image_path: "assets/app_icon.png"
+  android: "launcher_icon"
+  ios: true
