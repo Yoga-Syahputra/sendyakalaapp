@@ -29,6 +29,9 @@ Sendyakala is a mobile application built using Flutter with Firebase integration
 5. **Daily Reminder**
    - Allows users to set up notification times for daily reminders to open the app and engage with its features.
 
+6. **Reset Data**
+   - Enables users to reset their data in the settings.
+
 ## Installation
 
 1. Clone the repository:
