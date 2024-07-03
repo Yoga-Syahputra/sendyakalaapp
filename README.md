@@ -1,7 +1,8 @@
 # Sendyakala ❤️‍🩹
 
-![Logo](https://github.com/Yoga-Syahputra/sendyakalaapp/blob/main/assets/splash_logo.png)
-
+<p align="center">
+  <img src="https://github.com/Yoga-Syahputra/sendyakalaapp/blob/main/assets/splash_logo.png" alt="Logo">
+</p>
 
 Sendyakala is a mobile application built using Flutter with Firebase integration. It aims to raise awareness about the importance of mental health and overall well-being. The app offers several features designed to help users track their daily progress in various activities, practice gratitude, perform acts of kindness, maintain a journal, meditate, exercise, and stay informed with the latest health news.
 
