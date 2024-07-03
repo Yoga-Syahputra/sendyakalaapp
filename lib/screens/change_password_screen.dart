@@ -78,8 +78,9 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+                SizedBox(height: 100), 
                 Text(
-                  'Change Password',
+                  'Set Up New Password',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
