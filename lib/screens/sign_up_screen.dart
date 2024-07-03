@@ -26,7 +26,7 @@ class SignUpScreen extends StatelessWidget {
             children: [
               // Logo
               Image.asset(
-                'assets/sendyakala.png', // Replace with your logo path
+                'assets/sendyakala.png', 
                 height: 100,
               ),
               SizedBox(height: 40),
@@ -77,7 +77,7 @@ class SignUpScreen extends StatelessWidget {
               // Sign Up Button
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF003B73), // Set the background color
+                  backgroundColor: Color(0xFF003B73), 
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),

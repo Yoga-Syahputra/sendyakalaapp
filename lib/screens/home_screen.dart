@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
       create: (_) => ProgressModel(),
       child: Scaffold(
         appBar: AppBar(
-          automaticallyImplyLeading: false, // Disable the back button
+          automaticallyImplyLeading: false, 
           title: Text(_widgetTitles[_selectedIndex]),
           backgroundColor: Color(0xFF003B73),
         ),
@@ -78,7 +78,7 @@ class TodayProgressScreen extends StatelessWidget {
   void _showFullOverview(BuildContext context) {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => FullOverviewScreen()), // Navigate to the new screen
+      MaterialPageRoute(builder: (context) => FullOverviewScreen()), 
     );
   }
 
@@ -101,7 +101,7 @@ class TodayProgressScreen extends StatelessWidget {
                   _buildProgressItem('Exercise', progress.exerciseMinutes, 20, 'min'),
                   _buildProgressItem('Meditation', progress.meditationMinutes, 30, 'min'),
                   SizedBox(height: 20),
-                  Divider(color: Colors.grey), // Add this line for separator
+                  Divider(color: Colors.grey), 
                   _buildOverviewSection(context, progress),
                 ],
               ),
@@ -140,7 +140,7 @@ class TodayProgressScreen extends StatelessWidget {
           ),
           SizedBox(height: 5),
           LinearProgressIndicator(
-            value: total == 0 ? 0 : current / total, // Prevent division by zero
+            value: total == 0 ? 0 : current / total, 
             backgroundColor: Colors.grey[300],
             color: Color(0xFF003B73),
             minHeight: 10,
@@ -171,7 +171,7 @@ class TodayProgressScreen extends StatelessWidget {
                     backgroundColor: Color(0xFFEAA318),
                     foregroundColor: Colors.black,
                   ),
-                  onPressed: () => _showFullOverview(context), // Corrected onPressed handler
+                  onPressed: () => _showFullOverview(context), 
                   child: Text('View All'),
                 ),
               ),

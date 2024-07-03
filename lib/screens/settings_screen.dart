@@ -113,14 +113,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 }
               } catch (e) {
                 print('Error resetting data: $e');
-                // Optionally, you can show a snackbar or dialog to inform the user about the error
               }
             },
             child: Text('Yes'),
           ),
           TextButton(
             onPressed: () {
-              Navigator.of(context).pop(); // Close the dialog
+              Navigator.of(context).pop(); 
             },
             child: Text('No'),
           ),
@@ -278,7 +277,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
               ),
-              SizedBox(height: 20), // Adjust spacing as needed
+              SizedBox(height: 20), 
               Text(
                 'Sendyakala v 1.0',
                 style: TextStyle(fontSize: 12, color: Colors.grey),

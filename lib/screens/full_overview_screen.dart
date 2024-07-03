@@ -39,11 +39,11 @@ class FullOverviewScreen extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 10.0),
       padding: const EdgeInsets.all(16.0),
       decoration: BoxDecoration(
-        color: Colors.white, // Set a white background for better contrast
+        color: Colors.white, 
         borderRadius: BorderRadius.circular(12.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.5), // Add shadow for a better visual effect
+            color: Colors.grey.withOpacity(0.5), 
             spreadRadius: 2,
             blurRadius: 5,
             offset: Offset(0, 3),
@@ -92,7 +92,7 @@ class FullOverviewScreen extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 5.0),
       padding: const EdgeInsets.all(12.0),
       decoration: BoxDecoration(
-        color: Color(0xFF003B73).withOpacity(0.1), // Add a light color background for each entry
+        color: Color(0xFF003B73).withOpacity(0.1), 
         borderRadius: BorderRadius.circular(8.0),
       ),
       child: Text(

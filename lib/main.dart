@@ -3,17 +3,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'screens/loading_screen.dart';
-import 'screens/login_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/activities_screen.dart';
-import 'screens/news_screen.dart';
-import 'screens/settings_screen.dart';
 import 'services/auth_service.dart';
 import 'services/news_service.dart';
 import 'models/progress_model.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:timezone/data/latest.dart' as tz;
-import 'package:timezone/timezone.dart' as tz;
+
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();

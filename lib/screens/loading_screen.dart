@@ -26,7 +26,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     return Scaffold(
       backgroundColor: Color(0xFF003B73),
       body: Center(
-        child: Image.asset('assets/splash_logo.png'), // Tambahkan splash art di folder assets
+        child: Image.asset('assets/splash_logo.png'), 
       ),
     );
   }

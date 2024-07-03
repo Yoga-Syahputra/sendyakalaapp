@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false, // Disable the back button
+        automaticallyImplyLeading: false, 
         title: Text('Login'),
         backgroundColor: Color(0xFF003B73),
       ),
@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               // Logo
               Image.asset(
-                'assets/sendyakala.png', // Replace with your logo path
+                'assets/sendyakala.png', 
                 height: 100,
               ),
               SizedBox(height: 40),
@@ -62,7 +62,7 @@ class LoginScreen extends StatelessWidget {
               // Login Button
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF003B73), // Set the background color
+                  backgroundColor: Color(0xFF003B73), 
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
@@ -121,7 +121,7 @@ class LoginScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SignUpScreen()), // Navigate to SignUpScreen
+                    MaterialPageRoute(builder: (context) => SignUpScreen()), 
                   );
                 },
                 child: Text(

@@ -29,15 +29,15 @@ class _ActivitiesScreenState extends State<ActivitiesScreen> with SingleTickerPr
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: true, // Use the default leading icon if needed
+        automaticallyImplyLeading: true, 
         backgroundColor: Colors.white,
-        elevation: 0, // Removes shadow
+        elevation: 0, 
         title: Text(
           'Set up Your Activities',
           style: TextStyle(
             color: Colors.black,
-            fontWeight: FontWeight.bold, // Makes the text bold
-            fontSize: 18, // Adjusts the font size
+            fontWeight: FontWeight.bold,
+            fontSize: 18, 
           ),
         ),
         centerTitle: true,
