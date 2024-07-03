@@ -29,7 +29,7 @@ class _NewsScreenState extends State<NewsScreen> {
               itemBuilder: (context, index) {
                 final article = newsService.articles[index];
                 final title = article['title'] ?? 'No title available';
-                final imageUrl = article['urlToImage'] ?? 'https://via.placeholder.com/150'; // Default image if none
+                final imageUrl = article['urlToImage'] ?? 'https://via.placeholder.com/150';
                 final author = article['author'] ?? 'Unknown Author';
                 final source = article['source']['name'] ?? 'Unknown Source';
                 final publishedAt = article['publishedAt'] != null
@@ -85,6 +85,8 @@ class _NewsScreenState extends State<NewsScreen> {
                                 onPressed: () {
                                   if (article['url'] != null) {
                                     _launchURL(article['url']);
+                                  } else {
+                                    print('No URL available for this article');
                                   }
                                 },
                                 style: ElevatedButton.styleFrom(
@@ -106,10 +108,8 @@ class _NewsScreenState extends State<NewsScreen> {
 
   Future<void> _launchURL(String url) async {
     final uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      throw 'Could not launch $url';
+    if (!await launchUrl(uri)) {
+      throw Exception('Could not launch $url');
     }
   }
 }
