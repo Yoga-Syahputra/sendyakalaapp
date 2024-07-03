@@ -1,4 +1,4 @@
-# Sendyakala
+# Sendyakala ❤️‍🩹
 
 Sendyakala is a mobile application built using Flutter with Firebase integration. It aims to raise awareness about the importance of mental health and overall well-being. The app offers several features designed to help users track their daily progress in various activities, practice gratitude, perform acts of kindness, maintain a journal, meditate, exercise, and stay informed with the latest health news.
 
@@ -29,11 +29,11 @@ Sendyakala is a mobile application built using Flutter with Firebase integration
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sendyakala.git
+    git clone https://github.com/yourusername/sendyakalaapp.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd sendyakala
+    cd sendyakalaapp
     ```
 3. Install dependencies:
     ```bash
