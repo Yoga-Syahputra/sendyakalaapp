@@ -36,7 +36,7 @@ Sendyakala is a mobile application built using Flutter with Firebase integration
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sendyakalaapp.git
+    git clone https://github.com/Yoga-Syahputra/sendyakalaapp.git
     ```
 2. Navigate to the project directory:
     ```bash
