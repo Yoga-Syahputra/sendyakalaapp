@@ -1,22 +1,22 @@
 {
   "project_info": {
-    "project_number": "470787015862",
-    "firebase_url": "https://sendyakala-e4fe8-default-rtdb.firebaseio.com",
-    "project_id": "sendyakala-e4fe8",
-    "storage_bucket": "sendyakala-e4fe8.appspot.com"
+    "project_number": "PROJECT_NUMBER",
+    "firebase_url": "FIREBASE_URL",
+    "project_id": "PROJECT_ID",
+    "storage_bucket": "STORAGE_BUCKET"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:470787015862:android:81d0d134e21bb0fbdfd217",
+        "mobilesdk_app_id": "MOBILESDK_APP_ID",
         "android_client_info": {
-          "package_name": "sendyakala.example.app"
+          "package_name": "PACKAGE_NAME"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAYVY3zZhm-ny6QiRnOWD6pS9tgv1neNgk"
+          "current_key": "API_KEY"
         }
       ],
       "services": {
