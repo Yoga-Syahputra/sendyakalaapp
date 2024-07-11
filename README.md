@@ -97,7 +97,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Flutter](https://flutter.dev/)
 - [Firebase](https://firebase.google.com/)
 - [NEWSAPI](https://newsapi.org/)
-- 
 
 ## Our Team!
 - Amanda Dwi Mulyani (2101020006)
