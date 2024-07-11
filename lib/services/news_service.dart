@@ -8,7 +8,7 @@ class NewsService extends ChangeNotifier {
   List get articles => _articles;
 
   Future<void> fetchNews() async {
-    final response = await http.get(Uri.parse('https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=YOUR API KEY'));
+    final response = await http.get(Uri.parse('https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=YOUR_API_KEY'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       _articles = data['articles'] ?? [];
