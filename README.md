@@ -97,3 +97,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Flutter](https://flutter.dev/)
 - [Firebase](https://firebase.google.com/)
 - [NEWSAPI](https://newsapi.org/)
+- 
+
+## Our Team!
+- Amanda Dwi Mulyani (2101020006)
+- Silvia Indah Maharani (2101020030)
+- Sevia Anggreini Simanjuntak (2101020083)
+- Sahra Fatimah Yasir (2101020084)
+- Yoga Syahputra (2101020105)
