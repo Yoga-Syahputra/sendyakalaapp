@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDvCLtxabMpDj9mxCVUSCFct0ukSD2y_xY',
-    appId: '1:470787015862:web:8b9450520262b91ddfd217',
-    messagingSenderId: '470787015862',
-    projectId: 'sendyakala-e4fe8',
-    authDomain: 'sendyakala-e4fe8.firebaseapp.com',
-    storageBucket: 'sendyakala-e4fe8.appspot.com',
-    measurementId: 'G-NR6K3P90XS',
+    apiKey: 'WEB_API_KEY',
+    appId: 'WEB_APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    authDomain: 'AUTH_DOMAIN',
+    storageBucket: 'STORAGE_BUCKET',
+    measurementId: 'MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAYVY3zZhm-ny6QiRnOWD6pS9tgv1neNgk',
-    appId: '1:470787015862:android:81d0d134e21bb0fbdfd217',
-    messagingSenderId: '470787015862',
-    projectId: 'sendyakala-e4fe8',
-    storageBucket: 'sendyakala-e4fe8.appspot.com',
+    apiKey: 'ANDROID_API_KEY',
+    appId: 'ANDROID_APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBAorACJv0DkIymPlA6117G6oX4n1reNxY',
-    appId: '1:470787015862:ios:bb5c74487e29bbdadfd217',
-    messagingSenderId: '470787015862',
-    projectId: 'sendyakala-e4fe8',
-    storageBucket: 'sendyakala-e4fe8.appspot.com',
-    iosBundleId: 'com.example.sendyakala',
+    apiKey: 'IOS_API_KEY',
+    appId: 'IOS_APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBAorACJv0DkIymPlA6117G6oX4n1reNxY',
-    appId: '1:470787015862:ios:bb5c74487e29bbdadfd217',
-    messagingSenderId: '470787015862',
-    projectId: 'sendyakala-e4fe8',
-    storageBucket: 'sendyakala-e4fe8.appspot.com',
-    iosBundleId: 'com.example.sendyakala',
+    apiKey: 'MACOS_API_KEY',
+    appId: 'MACOS_APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDvCLtxabMpDj9mxCVUSCFct0ukSD2y_xY',
-    appId: '1:470787015862:web:29adb9c95399ca40dfd217',
-    messagingSenderId: '470787015862',
-    projectId: 'sendyakala-e4fe8',
-    authDomain: 'sendyakala-e4fe8.firebaseapp.com',
-    storageBucket: 'sendyakala-e4fe8.appspot.com',
-    measurementId: 'G-FCXFN6SM70',
+    apiKey: 'WINDOWS_API_KEY',
+    appId: 'WINDOWS_APP_ID',
+    messagingSenderId: 'MESSAGING_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    authDomain: 'AUTH_DOMAIN',
+    storageBucket: 'STORAGE_BUCKET',
+    measurementId: 'MEASUREMENT_ID',
   );
 }
